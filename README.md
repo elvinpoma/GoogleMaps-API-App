@@ -15,63 +15,63 @@ Flujo principal (resumido)
 - Drawer → Lista: muestra todos los marcadores del usuario.
 - Desde la lista: ver foto (previsualización), editar (cambiar imagen) o eliminar marcador.
 
-Galería (2–3 por fila, imágenes reducidas)
+Galería (3–4 por fila, imágenes reducidas)
 
 <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start;">
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoLogIn.jpg" alt="Login" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Login — inicio de sesión con Supabase.</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoLogIn.jpg" alt="Login" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Login — inicio de sesión con Supabase.</figcaption>
   </figure>
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoRegistroCuenta.jpg" alt="Registro" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Registro — creación de cuenta.</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoRegistroCuenta.jpg" alt="Registro" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Registro — creación de cuenta.</figcaption>
   </figure>
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoMapaVacio.jpg" alt="Mapa vacío" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Mapa — vista principal donde se añaden marcadores.</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoMapaVacio.jpg" alt="Mapa vacío" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Mapa — vista principal donde se añaden marcadores.</figcaption>
   </figure>
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoDrawerMenu.jpg" alt="Drawer menu" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Drawer — opciones "Mapa" y "Lista" y "Cerrar Sesión".</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoDrawerMenu.jpg" alt="Drawer menu" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Drawer — opciones "Mapa" y "Lista" y "Cerrar Sesión".</figcaption>
   </figure>
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoFormularioCreacionMarcador.jpg" alt="Crear marcador" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Formulario — se abre tras long click para crear marcador.</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoFormularioCreacionMarcador.jpg" alt="Crear marcador" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Formulario — se abre tras long click para crear marcador.</figcaption>
   </figure>
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoVistaPunteroMapa.jpg" alt="Vista puntero" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Puntero — marcador visible en el mapa tras guardar.</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoVistaPunteroMapa.jpg" alt="Vista puntero" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Puntero — marcador visible en el mapa tras guardar.</figcaption>
   </figure>
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoDetallesFotoMapa.jpg" alt="Detalles marcador" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Detalles — vista al pulsar el puntero, incluye foto y metadatos.</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoDetallesFotoMapa.jpg" alt="Detalles marcador" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Detalles — vista al pulsar el puntero, incluye foto y metadatos.</figcaption>
   </figure>
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoListadoMarcadores.jpg" alt="Listado marcadores" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Lista — todos los marcadores del usuario.</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoListadoMarcadores.jpg" alt="Listado marcadores" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Lista — todos los marcadores del usuario.</figcaption>
   </figure>
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoVistaFotoDesdeListado.jpg" alt="Vista foto desde listado" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Previsualización — ver la foto desde la lista.</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoVistaFotoDesdeListado.jpg" alt="Vista foto desde listado" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Previsualización — ver la foto desde la lista.</figcaption>
   </figure>
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoCambioImagen.jpg" alt="Editar marcador" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Editar — cambiar imagen o datos del marcador.</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoCambioImagen.jpg" alt="Editar marcador" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Editar — cambiar imagen o datos del marcador.</figcaption>
   </figure>
 
-  <figure style="flex:1 1 30%;max-width:320px;margin:0;">
-    <img src="Fotos/FotoEliminarMarcador.jpg" alt="Eliminar marcador" style="width:100%;max-width:260px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-    <figcaption style="font-size:13px;margin-top:6px">Eliminar — flujo para borrar un marcador.</figcaption>
+  <figure style="flex:1 1 22%;max-width:200px;margin:0;">
+    <img src="Fotos/FotoEliminarMarcador.jpg" alt="Eliminar marcador" style="width:100%;max-width:180px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+    <figcaption style="font-size:12px;margin-top:6px">Eliminar — flujo para borrar un marcador.</figcaption>
   </figure>
 
 </div>
