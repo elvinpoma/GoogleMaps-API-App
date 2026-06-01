@@ -2,7 +2,7 @@
 
 Flujo principal y galería compacta.
 
-App nativa en Kotlin con Google Maps SDK y Supabase: autenticación (login/register), creación y gestión de marcadores con imágenes (cámara/galería) y persistencia por usuario.
+App nativa en Kotlin y Jetpack Compose con Google Maps SDK y Supabase: autenticación (login/register), creación y gestión de marcadores con imágenes (cámara/galería) y persistencia por usuario.
 
 Flujo principal (resumido)
 
