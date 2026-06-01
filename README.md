@@ -4,7 +4,7 @@ App nativa en **Kotlin** y **Jetpack Compose** con **Google Maps SDK** y **Supab
 
 ---
 
-## ⭐ Características principales
+## Características principales
 
 - **Autenticación Segura:** Login y registro con Supabase
 - **Google Maps Integrado:** Visualización de mapa interactivo en tiempo real
@@ -17,7 +17,7 @@ App nativa en **Kotlin** y **Jetpack Compose** con **Google Maps SDK** y **Supab
 
 ---
 
-## 📸 Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Autenticación y Navegación
 Acceso seguro a la aplicación y exploración del mapa principal.
@@ -49,7 +49,7 @@ Herramientas para actualizar información de marcadores.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 * **Lenguaje:** [Kotlin](https://kotlinlang.org/)
 * **UI Framework:** [Jetpack Compose](https://developer.android.com/jetpack/compose)
@@ -64,19 +64,19 @@ Herramientas para actualizar información de marcadores.
 
 ---
 
-## 🗺️ Flujo de la Aplicación
+## Flujo de la Aplicación
 
-1. **Login/Registro** → Autenticación segura con Supabase
-2. **Mapa Principal** → Visualiza marcadores existentes
-3. **Long Click** → Abre formulario para crear marcador
-4. **Captura de Foto** → Desde cámara o galería
-5. **Guardar Marcador** → Se persiste en la base de datos
-6. **Gestión desde Drawer** → Editar, ver detalles o eliminar marcadores
-7. **Vista Lista** → Consulta todos tus marcadores en formato de listado
+1. **Login/Registro** - Autenticación segura con Supabase
+2. **Mapa Principal** - Visualiza marcadores existentes
+3. **Long Click** - Abre formulario para crear marcador
+4. **Captura de Foto** - Desde cámara o galería
+5. **Guardar Marcador** - Se persiste en la base de datos
+6. **Gestión desde Drawer** - Editar, ver detalles o eliminar marcadores
+7. **Vista Lista** - Consulta todos tus marcadores en formato de listado
 
 ---
 
-## 📋 Instalación y Uso
+## Instalación y Uso
 
 1. Clona este repositorio:
    ```bash
